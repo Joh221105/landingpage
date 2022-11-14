@@ -1,7 +1,7 @@
 * {
     margin:0;
     padding: 0;
-    border: 1px red olid;
+    border: 1px red slid;
 }
 a {
     color: #8e99af;
@@ -66,13 +66,15 @@ img {
     padding:100px
 }
 
-button {
+.top-left button {
     width:20%;
     padding:10px;
     margin-top: 10px;
     font-size: 1.5rem;
     background-color: #3882F6;
-    color:white
+    color:white;
+    margin-bottom: 3rem;
+    border-radius:15px
 }
 
 .images {
@@ -108,16 +110,17 @@ button {
     text-align: left;
     height:45rem;
     margin-top:7rem;
+    margin-bottom:1rem
 }
 
 .quote h3 {
     margin-top: 1rem;
-    padding-top:15rem;
+    padding-top:11rem;
     font-size: 3rem;
     color: #1f2937;
     font-weight: 100;
     font-style: italic;
-    width:35%;
+    width:50%;
     margin: 0 auto
 }
 
@@ -126,6 +129,69 @@ button {
     font-size:2rem;
     text-align: center;
     font-weight:900;
-    margin-left:50rem;
+    margin-left:45rem;
     margin-top:1rem
+}
+
+.call-to-action {
+    width: 100%;
+    padding:5rem;
+    margin:0 auto
+}
+.banner {
+    display:flex;
+    justify-content: space-between;
+    background: #3882F6;
+    border-radius: 25px;
+    padding: 1%;
+    width: 75%;
+    height: 150px;
+    margin: 0 auto;
+}
+
+
+.sign-up-button {
+    width:25%;
+    padding:5%;
+    text-align: center;
+    margin-right:5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-button button {
+    width:45%;
+    height:5rem;
+    margin-bottom:10%;
+    background:#3882F6;
+    color:white;
+    border: 3px white solid;
+    font-size: 1rem;
+    border-radius:15px
+}
+
+.text {
+    color:white;
+    margin-left:20rem;
+}
+
+.text h4 {
+    font-size:3rem;
+    padding:2rem;
+}
+
+.text p {
+    text-align: center;
+    padding:1rem;
+    margin-bottom:10%;
+}
+
+footer {
+    background:#1F2937;
+    color:white;
+    height:3rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
 }
