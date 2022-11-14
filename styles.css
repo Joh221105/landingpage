@@ -1,12 +1,14 @@
 * {
     margin:0;
     padding: 0;
-    border: 1px red slid;
 }
+
 a {
     color: #8e99af;
     text-decoration: none;
 }
+
+/* HEADING */
 
 .nav-bar {
     display: inline-block;
