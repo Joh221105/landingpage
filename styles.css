@@ -1,7 +1,7 @@
 * {
     margin:0;
     padding: 0;
-    border: 1px red solid;
+    border: 1px red olid;
 }
 a {
     color: #8e99af;
@@ -101,4 +101,31 @@ button {
 .image1, .image2, .image3 {
     width:90%;
     padding:20px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    text-align: left;
+    height:45rem;
+    margin-top:7rem;
+}
+
+.quote h3 {
+    margin-top: 1rem;
+    padding-top:15rem;
+    font-size: 3rem;
+    color: #1f2937;
+    font-weight: 100;
+    font-style: italic;
+    width:35%;
+    margin: 0 auto
+}
+
+.quote p {
+    padding:1rem;
+    font-size:2rem;
+    text-align: center;
+    font-weight:900;
+    margin-left:50rem;
+    margin-top:1rem
 }
