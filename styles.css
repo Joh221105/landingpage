@@ -1,7 +1,7 @@
 * {
     margin:0;
     padding: 0;
-    border: 1px red soli
+    border: 1px red solid;
 }
 a {
     color: #8e99af;
@@ -73,4 +73,32 @@ button {
     font-size: 1.5rem;
     background-color: #3882F6;
     color:white
+}
+
+.images {
+    display: flex;
+    width:75%;
+    text-align: center;
+    font-size: 150%;
+    margin: 0 auto;
+}
+
+.info-main-text {
+    text-align: center;
+    padding-top:3%;
+    font-size: 3rem;
+    font-weight: 900;
+    color:#1F2937;
+    margin-bottom:20px
+}
+
+.image1 p, .image2 p, .image3 p {
+    width:50%;
+    margin:0 auto;
+    padding:10px;
+}
+
+.image1, .image2, .image3 {
+    width:90%;
+    padding:20px;
 }
