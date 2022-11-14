@@ -1,0 +1,1 @@
+This is the landing page project for Odin-Project. This will test my CSS and HTML skills, especially the use of Flexbox.
