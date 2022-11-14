@@ -1,3 +1,28 @@
+* {
+    margin:0;
+    padding: 0;
+    border: 1px red solid
+}
+
 h1{
     color:blue
 }
+
+.nav-bar {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color:white;
+}
+
+.logo {
+    margin-left: 50px;
+    font-size: 10px
+}
+
+.links {
+    margin-right: 50px;
+}
+
+
